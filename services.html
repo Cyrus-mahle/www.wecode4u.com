@@ -1,0 +1,166 @@
+<!--
+<i class="fa fa-code-fork"></i>
+<p> Web development </p>
+<i class="fa fa-laptop"></i>
+<p>Software intallation </p>
+<i class="fa fa-code"></i>
+<p>Mobile applications</p>
+<i class="fa fa-database"></i>
+<p>Database Management</p>
+<i class="fas fa-book"></i>
+<p>Tutoring Services</p>
+<i class="fas fa-laptop-code    "></i> 
+<p> Computer Repair </p>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+  ">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+header{
+  display: flex;
+  align-items: inline;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 20px blueviolet;
+}
+/*Header Logo */
+header .navb-logo img{
+    border-radius: 0.5rem;
+    width: 140px;
+    height: 66px;
+    box-shadow: 0 0 30px #2d044b;
+    margin-top:1rem;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+}
+/*  Header Heading */
+header h2{
+  display: flex;
+  left:50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  box-shadow: 0 4px 8px 0 blueviolet;
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card p{
+  padding:1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color:#660339;
+  text-shadow: 0 0 10px white;
+}
+
+
+</style>
+</head>
+<body>
+
+<header class="section1">
+<div class="navb-logo">
+    <img src="img/logo.png" alt="Logo">
+</div>
+<h2>We provide the following services</h2>
+</header>
+<!-- Section1-->
+
+
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+      <h4>Web development</h4>
+      <p><i class="fa fa-globe"></i>
+      <i class="fa fa-code"></i>
+      <i class="fa fa-code-branch"></i>
+    </p>
+      <!--<p></p>-->
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h4>Computer Repair</h4>
+      <p><i class="fas fa-laptop-code">
+        <i class="fas fa-toolbox"></i>
+      </i></p>
+      <!--<p></p>-->
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h4>Software installations</h4>
+      <p><i class="fa fa-laptop"></i>
+        <i class="fa fa-file-code"></i>
+      </p>
+      <!--<p>......</p>-->
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h5>Tutoring Services</h5>
+      <p> <i class="fa fa-book"></i>
+        <i class="fa fa-pen-square"></i>
+        <i class="fa fa-calculator"></i>
+      </p>
+      <!--<p>........</p>-->
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>
